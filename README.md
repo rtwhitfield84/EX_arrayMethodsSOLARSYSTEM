@@ -1,14 +1,24 @@
-# NSS Chaining Array Methods Exercise
+# NSS Solar System Exercise
+
 
 ## Instructions
 
-Using one single line of JavaScript code, complete the following tasks on the array of integers below.
+1. Copy the code below into the JavaScript file, and follow the instructions in the comments.
 
-1. Sort the numbers in descending order (10, 9, 8, 7, etc).
-1. Remove any integers greater than 19.
-1. Multiply each remaining number by 1.5 and then subtract 1.
-1. Then output (either in the DOM or the console) the sum of all the resulting numbers.
+```javascript
+var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
 
-```js
-var integers = [13, 25, 6, 3, 11, 2, 18, 7, 21, 1, 29, 20, 12, 8];
+/*
+ Use the forEach method to add the name of each planet
+ to a div element in your HTML with an id of "planets".
+*/
+var el = document.getElementById("planets");
+
+// Use the map method to create a new array where the first letter of each planet is capitalized
+
+// Use the filter method to create a new array that contains planets with the letter 'e'
+
+// Use the reduce method to create a sentence from the words in the following array
+
+var words = ["The", "early", "bird", "might", "get", "the", "worm", "but", "the", "second", "mouse", "gets", "the", "cheese"];
 ```
